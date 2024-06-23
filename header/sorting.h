@@ -13,7 +13,7 @@
         }while(0)
 
 int* leadSort(int*, size_t);
-void bubbleSort(int*, size_t);
-void bubbleSortK(int*, size_t, short);
+int* bubbleSort(int*, size_t);
+int* bubbleSortK(int*, size_t, short);
 
 #endif
