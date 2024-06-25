@@ -1,8 +1,10 @@
 #include "../header/sorting.h"
 
 int* leadSort(int* arr, size_t dim){
-    /* the function operate to copy, not original array */
     int* carray = NEW_ARRAY(int, dim);
+    EXIT_IF(!carray,"failed allocation to array !!!");
+    
+    /* The functions operate to copy, not original array */
     ARRCPY(carray, arr, dim);
 
     /* the heavy elements always go to the end */

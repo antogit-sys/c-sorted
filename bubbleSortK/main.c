@@ -15,11 +15,11 @@ int main(void)
    ARROUT(EXAMPLE_ARRAY, N);
    putchar('\n');
 
-   puts("Crescent ordinate array (k = -1): ");
+   puts("Crescent ordinate array (k = 1): ");
    ARROUT(ordinateCrescent, N);
    putchar('\n');
 
-   puts("Decrescent ordinate array (k = 1): ");
+   puts("Decrescent ordinate array (k = -1): ");
    ARROUT(ordinateDecrescent, N);
    putchar('\n');
 

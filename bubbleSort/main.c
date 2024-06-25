@@ -14,5 +14,6 @@ int main(void)
    puts("ordinate array: ");
    ARROUT(ordinateArray, N);
    putchar('\n');
+   //printf("%s",__FILE__);
 return 0;
 }
