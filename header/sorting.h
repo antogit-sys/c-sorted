@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include <stdlib.h>
 #include <stddef.h>
 #ifndef SORTING_H
@@ -24,5 +25,5 @@
 int* leadSort(int*, size_t);
 int* bubbleSort(int*, size_t);
 int* bubbleSortK(int*, size_t, short);
-
+int* shakerSort(int*, size_t);
 #endif
