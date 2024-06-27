@@ -1,1 +1,1 @@
-gcc main.c countingSort.c ../../utility/utility.c
+gcc main.c countingSort.c -Wall --pedantic ../../utility/utility.c

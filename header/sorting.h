@@ -5,7 +5,7 @@
 #ifndef SORTING_H
 #   define SORTING_H
 #   define EXAMPLE_ARRAY            (int[]){4, 2, 5, 1, 3, 14, 32, 10} //letterale composto
-#   define NEW_ARRAY(type, arr)     ((type*)calloc(arr, sizeof(type)))
+#   define NEW_ARRAY(type, length)     ((type*)calloc(length, sizeof(type)))
 #   define ARRCPY(dest, src, size)  for(size_t i=0; i<size; ++i) dest[i]=src[i]
 #   define ARROUT(v,n)              for(size_t i=0; i<n; ++i) printf("%d ",v[i])
 #   define SETK(array, pos, k)      ((k * (array[pos]-array[pos+1]))>0)
@@ -18,7 +18,7 @@
 
 #   define EXIT_IF(c, s) do{ \
         if((c)){ \
-            fprintf(stderr,"%s: %s\n",__FILE__,s); \
+            perror(s); \
             exit(EXIT_FAILURE); \
         } \
     }while(0)
