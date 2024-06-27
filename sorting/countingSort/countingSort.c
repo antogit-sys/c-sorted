@@ -1,5 +1,5 @@
 #include "../../header/sorting.h"
-#include <stdarg.h>
+
 int* countingSort(int* arr, size_t dim){
     int* carray, *count;
     int max; 
