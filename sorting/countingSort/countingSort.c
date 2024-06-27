@@ -1,16 +1,37 @@
 #include "../../header/sorting.h"
 
 int* countingSort(int* arr, size_t dim){
-    int* carray = NEW_ARRAY(int, dim);
+    int* carray, *count;
+    int max; 
+
+    EXIT_IF(dim == 0, "Erorr, size not valid !!!");
+
+    carray = NEW_ARRAY(int, dim);
     EXIT_IF(!carray,"failed allocation to array !!!");
     
     /* The functions operate to copy, not original array */
     ARRCPY(carray, arr, dim);
 
-    int max =  found_max(carray, dim);
-    printf("%d",max);
+    max = found_max(carray, dim);
 
-   
+    count = NEW_ARRAY(int, max+1);
+    EXIT_IF(!count, "failed allocation to count array !!!");
+
+    /* count occurrence for each value to array */
+    for(size_t i = 0; i < dim; ++i){
+        count[carray[i]]++;
+    }
+
+    /* rebuilding sorted array */
+    int index = 0;
+    for (int i = 0; i <= max; i++){
+        while (count[i] --> 0){
+            carray[index++] = i;
+            //count[i]--;
+        }
+    }
+    
+    free(count);
 
     return carray;
 }
