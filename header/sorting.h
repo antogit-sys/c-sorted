@@ -23,16 +23,6 @@
         } \
     }while(0)
 
-#   define FOUND_MAX_ARRAY(arr, size) do{     \
-        int max_val = arr[0];                 \
-        for (int i = 1; i < size; i++) {      \
-            if (arr[i] > max_val) {           \
-                max_val = arr[i];             \
-            }                                 \
-        }                                     \
-        max_val;                              \
-    }while(0)
-
 int found_max(int*,size_t);
 
 // - - - - - - - -
