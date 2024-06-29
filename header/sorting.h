@@ -24,13 +24,17 @@
     }while(0)
 
 int found_max(int*,size_t);
+int found_min(int*, size_t);
+int found_min_position(int*, size_t, size_t);
 
 // - - - - - - - -
  
 int* leadSort(int*, size_t);
 int* bubbleSort(int*, size_t);
 int* bubbleSortK(int*, size_t, short);
+int* selectionSort(int*, size_t);
 int* shakerSort(int*, size_t);
 int* shakerSortK(int*, size_t, short);
 int* countingSort(int*, size_t);
+int* countingSortK(int*, size_t, short);
 #endif
