@@ -10,7 +10,7 @@ int* mergeSortR(int* arr, size_t length){
     ARRCPY(carray, arr, length);
 
     /* begin position = 0 | end position = length-1*/
-    merge_sort_recursion(carray, 0, length - 1);
+    __merge_sort_recursion(carray, 0, length - 1);
 
     return carray;
 }
