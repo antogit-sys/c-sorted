@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <time.h>
 #include <stddef.h>
 #ifndef SORTING_H
 #   define SORTING_H
