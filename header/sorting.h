@@ -50,6 +50,6 @@ int* bogoSort(int*, size_t);
 
 #define STUPID_SORT(arr, length) bogoSort(arr, length)
 #define MONKEY_SORT(arr, length) bogoSort(arr, length)
-#define RANDOM_SORT(arr, length) bogoSort(arr, length)a
+#define RANDOM_SORT(arr, length) bogoSort(arr, length)
 
 #endif
