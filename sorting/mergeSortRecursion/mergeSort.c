@@ -15,23 +15,23 @@ int* mergeSortR(int* arr, size_t length){
     return carray;
 }
 
-void merge_sort_recursion(int* arr, size_t left, size_t right){
+void __merge_sort_recursion(int* arr, size_t left, size_t right){
     if(left < right){
         /*__CENTER_ARR macro defined in sorting.h  */
         // center is center point to arr
         size_t center = __CENTER_ARR(left, right); //(left + (right - left)/2)
         
         /* order sx <-- */
-        merge_sort_recursion(arr, left, center); //left in center
+        __merge_sort_recursion(arr, left, center); //left in center
         /* order dx -->*/
-        merge_sort_recursion(arr, center + 1, right); //center + 1 in right
+        __merge_sort_recursion(arr, center + 1, right); //center + 1 in right
         
         /*order by subgroup sx and dx */
-        merge_sorted_arrays(arr, left, center, right);
+        __merge_sorted_arrays(arr, left, center, right);
     }    
 }
 
-void merge_sorted_arrays(int* arr, size_t l, size_t c, size_t r){
+void __merge_sorted_arrays(int* arr, size_t l, size_t c, size_t r){
     size_t left_length = c - l + 1;
     size_t right_length = r - c;
 
