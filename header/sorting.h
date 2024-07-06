@@ -52,4 +52,8 @@ int* bogoSort(int*, size_t);
 #define MONKEY_SORT(arr, length) bogoSort(arr, length)
 #define RANDOM_SORT(arr, length) bogoSort(arr, length)
 
+int* quickSortRK(int*, long);
+/*|_*/void __quick_sort_recursionk(int*, long, long);
+/*|_*/long __splitk(int*, long, long);
+
 #endif
