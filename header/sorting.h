@@ -35,6 +35,10 @@ int* leadSort(int*, size_t);
 int* bubbleSort(int*, size_t);
 int* bubbleSortK(int*, size_t, short);
 int* selectionSort(int*, size_t);
+
+int* oddEvenSort(int*, size_t);
+#define BRICKSORT(arr, length)  oddEvenSort(arr, length)
+
 int* shakerSort(int*, size_t);
 int* shakerSortK(int*, size_t, short);
 int* countingSort(int*, size_t);
