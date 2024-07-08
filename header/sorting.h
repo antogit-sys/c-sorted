@@ -30,7 +30,8 @@ int found_min(int*, size_t);
 int found_min_position(int*, size_t, size_t);
 
 // - - - - - - - -
- 
+int* slowSort(int*, long);
+/*|_*/void __slow_sort_recursion(int*, long, long);
 int* leadSort(int*, size_t);
 int* bubbleSort(int*, size_t);
 int* bubbleSortK(int*, size_t, short);
