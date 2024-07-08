@@ -56,4 +56,7 @@ int* quickSortRK(int*, long);
 /*|_*/void __quick_sort_recursionk(int*, long, long);
 /*|_*/long __splitk(int*, long, long);
 
+int* quickSortR(int*, long);
+/*|_*/void __quick_sort_recursion(int*, long, long);
+/*|_*/long partition(int*, long, long);
 #endif
