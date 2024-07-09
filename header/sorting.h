@@ -36,6 +36,7 @@ int* leadSort(int*, size_t);
 int* bubbleSort(int*, size_t);
 int* bubbleSortK(int*, size_t, short);
 int* selectionSort(int*, size_t);
+int* insertionSort(int*, size_t);
 
 int* oddEvenSort(int*, size_t);
 #define BRICKSORT(arr, length)  oddEvenSort(arr, length)
