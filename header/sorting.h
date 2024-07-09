@@ -66,4 +66,5 @@ int* quickSortR(int*, long);
 /*|_*/long partition(int*, long, long);
 
 unsigned stalinSort(int*, unsigned);
+int* miracleSort(int*, size_t);
 #endif
