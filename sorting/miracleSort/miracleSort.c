@@ -9,15 +9,16 @@ int* miracleSort(int* arr, size_t len){
     /* The functions operate to copy, not original array */
     ARRCPY(carray, arr, len);
 
-    while(!sorted){
+    do{
+        sorted = true;
         for(int i = 0; i < len-1; ++i){
-            sorted = false;
             if(carray[i] > carray[i+1]){
                 WAIT_MIRACLE();
-                sorted = true;
+                sorted = false;
+                break;
             }
         }
-    }
+    }while(!sorted);
 
     return carray;
 }

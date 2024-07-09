@@ -10,11 +10,12 @@ int main(void)
    ARROUT(EXAMPLE_ARRAY, N);
    putchar('\n');
 
-   ARRCPY(ordinateArray, miracleSort(EXAMPLE_ARRAY, N), N);
-
    puts("ordinate array: ");
+   puts("in attesa di un miracolo divino...");
+
+   ARRCPY(ordinateArray, miracleSort(EXAMPLE_ARRAY, N), N);
    ARROUT(ordinateArray, N);
    putchar('\n');
-   //printf("%s",__FILE__);
+   
 return 0;
 }
