@@ -1,6 +1,6 @@
 # c-sorted
 
-Lista personale di algortmi di ordinamento studiati dal meno efficiente al più efficiente(il punto 6 è un punto a parte, ed è ecluso dalla gradazione di efficienza che sto applicando):
+Lista personale di algortmi di ordinamento studiati dal meno efficiente al più efficiente(il punto 6 e 7sono eclusi dalla gradazione di efficienza che sto applicando):
 
 1. #### Complessità esponenziale - O(2^n)
    
@@ -61,3 +61,11 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
    - Comb sort
    
    - Stooge sort
+
+7. #### Algoritmi divertenti
+   
+   - Stalin sort
+   
+   - Miracle Sort
+   
+   - Mao Zendong sort
