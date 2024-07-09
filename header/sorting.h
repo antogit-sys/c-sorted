@@ -64,4 +64,6 @@ int* quickSortRK(int*, long);
 int* quickSortR(int*, long);
 /*|_*/void __quick_sort_recursion(int*, long, long);
 /*|_*/long partition(int*, long, long);
+
+unsigned stalinSort(int*, unsigned);
 #endif
