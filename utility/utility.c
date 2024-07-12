@@ -31,3 +31,16 @@ int found_min_position(int* arr, size_t minRange, size_t maxRange){
     }
     return minpos;
 }
+
+int found_max_position(int* arr, size_t minRange, size_t maxRange){
+    int maxpos = minRange;
+
+    EXIT_IF(minRange > maxRange, "Error index");
+
+    for(size_t i = minRange+1; i<maxRange; ++i){
+        if(arr[i] > arr[maxpos])
+            maxpos = i;
+    }
+    return maxpos;
+}
+

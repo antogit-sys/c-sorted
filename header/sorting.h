@@ -28,8 +28,10 @@
 int found_max(int*,size_t);
 int found_min(int*, size_t);
 int found_min_position(int*, size_t, size_t);
-
+int found_max_position(int*, size_t, size_t);
+//
 // - - - - - - - -
+//
 int* slowSort(int*, long);
 /*|_*/void __slow_sort_recursion(int*, long, long);
 int* leadSort(int*, size_t);
@@ -69,4 +71,7 @@ int* quickSortR(int*, long);
 
 int* stalinSort(int*, size_t*);
 int* miracleSort(int*, size_t);
+
+int* pancakeSort(int*, size_t);
+/*|_*/void flip(int*, size_t);
 #endif
