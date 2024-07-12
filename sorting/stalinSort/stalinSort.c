@@ -1,19 +1,26 @@
 #include "../../header/sorting.h"
 
-unsigned stalinSort(int* arr, unsigned len){
-    unsigned newlen = 1;  // Indice per tenere traccia dell'array ordinato
+int* stalinSort(int* arr, size_t* len){
+    size_t newlen = 1;  // Indice per tenere traccia dell'array ordinato
     int max = arr[0];  // Manteniamo traccia del massimo visto finora
 
-    for(unsigned i = 1; i < len; ++i){
+    for(unsigned i = 1; i < *len; ++i){
         if(arr[i] >= max){
             // Trovato un elemento che è più grande o uguale al massimo visto finora
             arr[newlen] = arr[i];  // Manteniamo questo elemento nell'array ordinato
             max = arr[i];  // Aggiorniamo il massimo visto finora
             ++newlen;  // Avanziamo nell'array ordinato
         }
-        // Se arr[i] è minore di max, lo ignoriamo e passiamo all'elemento successivo
     }
+    
+    for(size_t i = newlen; i<*len; ++i)
+        arr[i] = 0;
+    
+    arr = (int*)realloc(arr, newlen*sizeof(int));
+    EXIT_IF(!arr,"Failed reallocation to array");
 
-    return newlen;  //ritorno nuova dimensione
+    *len = newlen;
+
+    return arr; 
 }
 
