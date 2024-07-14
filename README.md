@@ -8,7 +8,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
 
 2. #### Complessità fattoriale - O(n*n!)
    
-   - Bogo sort / Stupid sort
+   - [Bogo sort / Stupid sort](sorting/bogoSort/bogo.md)
 
 3. #### Complessità quadratica - O(n^2)
    
