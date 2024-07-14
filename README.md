@@ -14,7 +14,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
    
    - Lead Sort
    
-   - Bubble sort
+   - [Bubble sort](sorting/bubbleSort/Bogo.md)
    
    - Insert sort / Naïve Sort
    
