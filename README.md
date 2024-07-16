@@ -16,7 +16,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
    
    - [Bubble sort](sorting/bubbleSort/Bubble.md)
    
-   - Insert sort / Naïve Sort
+   - [Insert sort / Naïve Sort](sorting/insertionSort/insert.md)
    
    - Gnome sort
    

@@ -2,7 +2,7 @@
 
 int* insertionSort(int* arr, size_t length){
     int* carray = NEW_ARRAY(int, length);
-    EXIT_IF(!carray,"failed allocation to array !!!");
+    EXIT_IF(!carray,"failed allocation to array");
     
     /* The functions operate to copy, not original array */
     ARRCPY(carray, arr, length);
