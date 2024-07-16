@@ -4,7 +4,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
 
 1. #### Complessità esponenziale - O(2^n)
    
-   - [Slow sort](sorting/slowSort/sort.md)
+   - [Slow sort](sorting/slowSort/slow.md)
 
 2. #### Complessità fattoriale - O(n*n!)
    
