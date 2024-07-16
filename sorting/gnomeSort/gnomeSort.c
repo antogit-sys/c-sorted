@@ -10,10 +10,10 @@ int* gnomeSort(int* arr, size_t length){
     for(size_t i = 0; i<length;){
         if(i == 0) ++i; //next pos
 
-        if(array[i] >= carray[i-1]) ++i; //next pos
+        if(array[i] >= carray[i-1]) ++i; //next pos ++
         else{
             SWAP_VALUE(carray[i], carray[i-1]); //change current pos with prev pos 
-            --i;
+            --i; //prev position
         }
     }
 

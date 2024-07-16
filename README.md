@@ -18,11 +18,11 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
    
    - [Insert sort / Naïve Sort](sorting/insertionSort/insert.md)
    
-   - Gnome sort
+   - [Gnome sort](sorting/gnomeSort/gnome.md)
    
-   - Selection sort
+   - [Selection sort](sorting/selectionSort/select.md)
    
-   - Pancake sort
+   - [Pancake sort](sorting/pancakeSort/pancake.md)
    
    - OddEven sort / Brick Sort
    
