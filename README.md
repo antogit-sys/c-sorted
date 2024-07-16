@@ -12,7 +12,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
 
 3. #### Complessità quadratica - O(n^2)
    
-   - Lead Sort
+   - [Lead Sort](sorting/leadSort/lead.md)
    
    - [Bubble sort](sorting/bubbleSort/Bubble.md)
    
