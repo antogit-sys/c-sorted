@@ -24,9 +24,9 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
    
    - [Pancake sort](sorting/pancakeSort/pancake.md)
    
-   - OddEven sort / Brick Sort
+   - [OddEven sort / Brick Sort](sorting/selectionSort/oddeven.md)
    
-   - Shaker Sort
+   - [Shaker Sort](sorting/selectionSort/shaker.md)
 
 4. #### Complessità lineare - O(n)
    
