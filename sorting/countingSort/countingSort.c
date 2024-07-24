@@ -25,7 +25,7 @@ int* countingSort(int* arr, size_t dim){
     /* rebuilding sorted array */
     int index = 0;
     for (int i = 0; i <= max; i++){
-        while (count[i] --> 0){
+        while(count[i] --> 0){
             carray[index++] = i;
             //count[i]--;
         }
