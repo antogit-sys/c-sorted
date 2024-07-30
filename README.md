@@ -34,7 +34,7 @@ Lista personale di algortmi di ordinamento studiati dal meno efficiente al più 
 
 5. #### Complessità logaritmica - O(n log n)
    
-   - Merge sort ricorsivo
+   - [Merge sort ricorsivo](sorting/mergeSortRecursion/merge.md)
    
    - Merge sort con uso dello Stack
    
