@@ -37,7 +37,7 @@ void __quick_sort_recursion(int* arr, long low, long high){
 
 long partition(int* array, long low, long high)
 {
-    int pivot_index = low + (rand() % (high - low));
+    int pivot_index = low + (rand() % (high - low)); //pivot scelto randomicamente
     
     // non scambio elementi con se stessi e mi assicuro di avere sempre il pivot alla fine
     if (pivot_index != high)
